@@ -98,7 +98,7 @@ subMenuEl.style.position = "absolute";
 
 // Set the CSS top property of subMenuEl to the value of 0.
 
-subMenuEl.style.top = "10";
+subMenuEl.style.top = "0";
 
 // Select and cache the all of the <a> elements inside of topMenuEl in a variable named topMenuLinks.
 
@@ -139,10 +139,7 @@ const topMenuLinks = topMenuEl.querySelectorAll('a');
 //part5
   
 // Within the event listener, if the clicked <a> element does not yet have a class of "active" 
-
-
 //(it was inactive when clicked):
    //a)If the clicked <a> element's "link" object within menuLinks has a subLinks property 
        //(all do, except for the "link" object for ABOUT), set the CSS top property of subMenuEl to 100%.
-   //b)Otherwise, set the CSS top property of subMenuEl to 0.
-       // Hint: Caching the "link" object will come in handy for passing its subLinks array later.
+
